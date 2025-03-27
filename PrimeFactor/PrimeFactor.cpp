@@ -9,6 +9,9 @@ public:
 		if (value == 2) {
 			result.push_back(2);
 		}
+		else if (value == 3) {
+			result.push_back(3);
+		}
 		return result;
 	}
 };

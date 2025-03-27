@@ -8,8 +8,10 @@ public:
 
 		if (value > 1) {
 			if (value == 4) {
-				result.push_back(2);
-				result.push_back(2);
+				while (value % 2 == 0) {
+					result.push_back(2);
+					value /= 2;
+				}
 			}
 			else {
 				result.push_back(value);

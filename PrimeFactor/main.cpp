@@ -1,5 +1,5 @@
 #include "gmock/gmock.h"
-#include "FrimeFactor.cpp"
+#include "PrimeFactor.cpp"
 
 int main() {
 	::testing::InitGoogleMock();

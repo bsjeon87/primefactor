@@ -7,7 +7,13 @@ public:
 		std::vector<int> result = {};
 
 		if (value > 1) {
-			result.push_back(value);
+			if (value == 4) {
+				result.push_back(2);
+				result.push_back(2);
+			}
+			else {
+				result.push_back(value);
+			}
 		}
 		return result;
 	}

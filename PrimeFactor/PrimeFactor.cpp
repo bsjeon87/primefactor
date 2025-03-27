@@ -14,7 +14,7 @@ public:
 					value /= divisor;
 				}
 			}
-			else if (value == 6) {
+			else if (value == 6 || value == 9) {
 				for (divisor = 2; value > 1; divisor++) {
 					while (value % divisor == 0) {
 						result.push_back(divisor);

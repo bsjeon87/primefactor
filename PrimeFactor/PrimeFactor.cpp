@@ -6,11 +6,8 @@ public:
 	std::vector<int> of(int value) {
 		std::vector<int> result = {};
 
-		if (value == 2) {
-			result.push_back(2);
-		}
-		else if (value == 3) {
-			result.push_back(3);
+		if (value > 1) {
+			result.push_back(value);
 		}
 		return result;
 	}

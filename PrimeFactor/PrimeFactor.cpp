@@ -13,6 +13,10 @@ public:
 					value /= 2;
 				}
 			}
+			else if (value == 6) {
+				result.push_back(2);
+				result.push_back(3);
+			}
 			else {
 				result.push_back(value);
 			}
